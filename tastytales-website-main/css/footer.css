@@ -1,0 +1,102 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+    background-color:rgb(211, 238, 211);
+}
+.footer img{
+    width: 60%;
+}
+.footer-nav nav ul li{
+    display:  flex;
+    margin-top: 10px;
+}
+.search-bar::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.searchbox{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    border-width: 3px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 2px;
+    width: 300px;
+}
+.add-button{
+    padding-left: 10x;
+    margin-right: 10px;
+    background-color: rgb(255, 55, 20);
+    color: white;
+    border-radius: 14px;
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    outline: 2px solid black;
+    width: 30px;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    transition-property: outline-color,background-color;
+    transition-duration: .25s;
+    
+  }
+.fa:hover{
+    outline-offset: 4px;
+}
+.fa:hover a{
+    animation: shake .25s;
+}
+.fa-instagram:hover{
+    background-image: 
+    radial-gradient(farthest-side,	#5B51D8 0%, #833AB4 5%, #C13584 35%, #E1306C 40%, #F77737 45%);
+    outline-color: #C13584;
+    color: white;
+}
+.fa-facebook:hover{
+    background-color: #0A66C2;
+    outline-color: #0A66C2;
+    color: white;
+}
+.fa-twitter:hover{
+    background-color: #1D9BF0;
+    outline-color: #1D9BF0;
+    color: white;
+}
+
+.fa-linkedin:hover{
+    background-color: #0A66C2;
+    outline-color: #0A66C2;
+    color: white;
+}
+.fa-pinterest:hover{
+    background-color: #E60023;
+    outline-color: #E60023;
+    color: white;
+}
+@keyframes shake{
+    10%, 90% {transform: rotate(15deg);}
+      
+    20%, 80% {transform: rotate(-15deg);}
+    
+    30%, 50%, 70% {transform: rotate(15deg);}
+    
+    40%, 60% {transform: rotate(-15deg);}
+    
+}

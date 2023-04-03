@@ -1,0 +1,62 @@
+
+.shop1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 64px 40px;
+}
+.shop-button{
+    font-size: 1.5rem;
+    padding-left: 10x;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: rgb(255, 55, 20);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 230px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.shop-button:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 55, 20);
+    background-color: white ;
+    color: rgb(255, 55, 20);
+}
+.shopify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 36px 40px ;
+}
+.shop-now{
+    font-size: 1.5rem;
+    padding-left: 10x;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: rgb(255, 55, 20);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.shop-now:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 55, 20);
+    background-color: white ;
+    color: rgb(255, 55, 20);
+}
+.shopify-concl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.shopify-concl img{
+    width: 110%;
+}
